@@ -54,13 +54,13 @@ body {
     width: 100%;
 }
 
-.banner {
-    width: 100%;
-    padding-top: 3rem;
-    margin: 0;
-}
-
 .sea {
     padding: 2rem 2rem 10rem 2rem;
-    width: 100%
+    width: 100%;
+    @media only screen and (min-width: 30em){
+        padding: 5rem;
+    }
+    @media only screen and (min-width: 50em){
+        padding: 5rem 20rem;
+    }
 }
