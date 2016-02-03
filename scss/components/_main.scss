@@ -29,12 +29,12 @@ body {
     animation: popup 6s linear infinite;
 }
 
-@-webkit-keyframes animated{
-    from { -webkit-transform: rotate(0deg) translateX(50px) rotate(0deg); }
-    to   { -webkit-transform: rotate(10deg) translateX(30px) rotate(10deg); }
+@keyframes animated{
+    from { transform: rotate(0deg) translateX(50px) rotate(0deg); }
+    to   { transform: rotate(10deg) translateX(30px) rotate(10deg); }
 }
 
-@-webkit-keyframes popup {
+@keyframes popup {
     0% {
     transform: translateX(10px);
     }
